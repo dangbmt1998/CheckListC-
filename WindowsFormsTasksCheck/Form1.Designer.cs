@@ -51,6 +51,7 @@
             this.dgvTask.Size = new System.Drawing.Size(800, 422);
             this.dgvTask.TabIndex = 0;
             this.dgvTask.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTask_CellContentClick);
+            this.dgvTask.DoubleClick += new System.EventHandler(this.dgvTask_DoubleClick);
             // 
             // menuStrip1
             // 
@@ -85,6 +86,7 @@
             this.editTask.Name = "editTask";
             this.editTask.Size = new System.Drawing.Size(78, 24);
             this.editTask.Text = "Edit Task";
+            this.editTask.Click += new System.EventHandler(this.editTask_Click);
             // 
             // refreshToolStripMenuItem
             // 

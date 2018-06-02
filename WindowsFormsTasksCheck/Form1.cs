@@ -64,5 +64,22 @@ namespace WindowsFormsTasksCheck
             }
             this.ShowTaskList();
         }
+
+        private void editTask_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvTask_DoubleClick(object sender, EventArgs e)
+        {
+            if (this.dgvTask.SelectedRows.Count == 1)
+            {
+                var row = this.dgvTask.SelectedRows[0];
+                var item = (Task)row.DataBoundItem;
+                var form = new EditTask(item);
+                form.ShowDialog();
+                this.ShowTaskList();
+            }
+        }
     }
 }

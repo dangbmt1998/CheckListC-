@@ -73,6 +73,7 @@
             this.btnSaveEdit.TabIndex = 3;
             this.btnSaveEdit.Text = "Save";
             this.btnSaveEdit.UseVisualStyleBackColor = true;
+            this.btnSaveEdit.Click += new System.EventHandler(this.btnSaveEdit_Click);
             // 
             // btnCancelEdit
             // 
@@ -82,6 +83,7 @@
             this.btnCancelEdit.TabIndex = 4;
             this.btnCancelEdit.Text = "Cancel";
             this.btnCancelEdit.UseVisualStyleBackColor = true;
+            this.btnCancelEdit.Click += new System.EventHandler(this.btnCancelEdit_Click);
             // 
             // dtpDeadlineedit
             // 
@@ -121,6 +123,7 @@
             this.Controls.Add(this.label1);
             this.Name = "EditTask";
             this.Text = "EditTask";
+            this.Load += new System.EventHandler(this.EditTask_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
