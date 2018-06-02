@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QUANLYTASKModelStoreContainer" CdmEntityContainer="QUANLYTASKEntities">
+    <EntitySetMapping Name="Tasks">
+      <EntityTypeMapping TypeName="QUANLYTASKModel.Task">
+        <MappingFragment StoreEntitySet="Task">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Task_name" ColumnName="Task_name" />
+          <ScalarProperty Name="Time_create" ColumnName="Time_create" />
+          <ScalarProperty Name="Complete" ColumnName="Complete" />
+          <ScalarProperty Name="Deadline" ColumnName="Deadline" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

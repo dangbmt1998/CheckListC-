@@ -1,0 +1,15 @@
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\bin\Debug\WindowsFormsTasksCheck.exe.config
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\bin\Debug\WindowsFormsTasksCheck.exe
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\bin\Debug\WindowsFormsTasksCheck.pdb
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\bin\Debug\EntityFramework.dll
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\bin\Debug\EntityFramework.SqlServer.dll
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\bin\Debug\EntityFramework.xml
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\bin\Debug\EntityFramework.SqlServer.xml
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.csprojAssemblyReference.cache
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.Form_Task.resources
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.Properties.Resources.resources
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.csproj.GenerateResource.cache
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.csproj.CoreCompileInputs.cache
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.csproj.CopyComplete
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.exe
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.pdb
