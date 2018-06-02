@@ -31,5 +31,12 @@ namespace WindowsFormsTasksCheck
         {
 
         }
+
+        private void addTask_Click(object sender, EventArgs e)
+        {
+            var form = new Addtasks();
+            form.Show();
+            this.ShowTaskList();
+        }
     }
 }

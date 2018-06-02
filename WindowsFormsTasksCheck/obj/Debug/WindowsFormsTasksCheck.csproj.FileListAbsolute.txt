@@ -13,3 +13,4 @@ D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksC
 D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.csproj.CopyComplete
 D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.exe
 D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.pdb
+D:\C#\WindowsFormsTasksCheck\WindowsFormsTasksCheck\obj\Debug\WindowsFormsTasksCheck.Addtasks.resources

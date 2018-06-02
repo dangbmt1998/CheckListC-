@@ -69,6 +69,7 @@
             this.addTask.Name = "addTask";
             this.addTask.Size = new System.Drawing.Size(80, 24);
             this.addTask.Text = "Add Task";
+            this.addTask.Click += new System.EventHandler(this.addTask_Click);
             // 
             // deletetask
             // 
