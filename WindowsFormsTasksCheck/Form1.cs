@@ -43,5 +43,26 @@ namespace WindowsFormsTasksCheck
         {
             this.ShowTaskList();
         }
+
+        private void deletetask_Click(object sender, EventArgs e)
+        {
+            var db = new QUANLYTASKEntities();
+            for (int i = 0; i < this.dgvTask.SelectedRows.Count; i++)
+            {
+                var row = this.dgvTask.SelectedRows[i];
+                var item = (Task)row.DataBoundItem;
+                try
+                {
+                    var task = db.Tasks.Find(item.id);
+                    db.Tasks.Remove(task);
+                    db.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            this.ShowTaskList();
+        }
     }
 }

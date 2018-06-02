@@ -78,6 +78,7 @@
             this.deletetask.Name = "deletetask";
             this.deletetask.Size = new System.Drawing.Size(96, 24);
             this.deletetask.Text = "Delete Task";
+            this.deletetask.Click += new System.EventHandler(this.deletetask_Click);
             // 
             // editTask
             // 
