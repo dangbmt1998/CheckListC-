@@ -38,5 +38,10 @@ namespace WindowsFormsTasksCheck
             form.Show();
             this.ShowTaskList();
         }
+
+        private void refreshToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.ShowTaskList();
+        }
     }
 }

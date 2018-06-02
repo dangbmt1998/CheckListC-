@@ -33,6 +33,7 @@
             this.addTask = new System.Windows.Forms.ToolStripMenuItem();
             this.deletetask = new System.Windows.Forms.ToolStripMenuItem();
             this.editTask = new System.Windows.Forms.ToolStripMenuItem();
+            this.refreshToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTask)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -57,7 +58,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addTask,
             this.deletetask,
-            this.editTask});
+            this.editTask,
+            this.refreshToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -82,6 +84,13 @@
             this.editTask.Name = "editTask";
             this.editTask.Size = new System.Drawing.Size(78, 24);
             this.editTask.Text = "Edit Task";
+            // 
+            // refreshToolStripMenuItem
+            // 
+            this.refreshToolStripMenuItem.Name = "refreshToolStripMenuItem";
+            this.refreshToolStripMenuItem.Size = new System.Drawing.Size(70, 24);
+            this.refreshToolStripMenuItem.Text = "Refresh";
+            this.refreshToolStripMenuItem.Click += new System.EventHandler(this.refreshToolStripMenuItem_Click);
             // 
             // Form_Task
             // 
@@ -109,6 +118,7 @@
         private System.Windows.Forms.ToolStripMenuItem addTask;
         private System.Windows.Forms.ToolStripMenuItem deletetask;
         private System.Windows.Forms.ToolStripMenuItem editTask;
+        private System.Windows.Forms.ToolStripMenuItem refreshToolStripMenuItem;
     }
 }
 
